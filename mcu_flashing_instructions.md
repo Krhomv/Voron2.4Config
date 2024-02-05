@@ -1,4 +1,4 @@
-copy config.octopus & config.sb2209 to the klipper dir
+copy `config.octopus` & `config.sb2209` to the klipper dir
 
 # Octopus
 ```bash

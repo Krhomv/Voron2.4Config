@@ -92,4 +92,5 @@ Replace `[EBB 2209 CAN Id]` with the ID you've written down. This should look li
 ```bash
 sudo ~/katapult/scripts/flash_can.py -u d9093b323a18 -f ~/klipper/out/klipper.bin
 ```
-### Congratulations, you have now flashed your MCUs!
+
+### 3. Power cycle the machine again. Congratulations, you have now flashed your MCUs!

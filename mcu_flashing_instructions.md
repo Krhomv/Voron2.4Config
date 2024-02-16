@@ -1,6 +1,6 @@
 
 # How to flash the Octopus Pro and EBB 2209 (RP2040) using Katapult
-_Explanations are in italics. Feel free to ignore them if you just want to flash_
+_Explanations are in italics. Feel free to ignore them if you just want to flash. Credit to @bkpkt_patrick on the Siboor Discord for showing me the config file method._
 
 ### 0. Connect to your board using your prefered method (I recommend MobaXTerm).
 All commands will be run on the board.

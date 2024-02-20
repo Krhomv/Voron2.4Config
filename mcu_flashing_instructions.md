@@ -66,7 +66,16 @@ Replace `[Octopus Pro DFU USB Id]` with the ID you've written down. This should 
 ```bash
 make KCONFIG_CONFIG=config.octopus flash FLASH_DEVICE=0483:df11
 ```
-At this point you might get an error about not being able to read the status. You can ignore it.
+At this point you will get the following text and error:
+```bash
+Download done.
+File downloaded successfully
+dfu-util: Error during download get_status
+
+Failed to flash to 0483:df11: Error running dfu-util
+```
+Ignore it, it's fine. As long as you have the `File downloaded successfully` line, then everything worked.
+_As far as I understand, the board performs the firmware update immediately and then doesn't respond to `dfu_util` when it tries to get its status, presumably to check if the flashing was successful. But in this case, no news is good news and the flashing was successful.`
 
 ### 4. Power cycle the machine
 ```bash

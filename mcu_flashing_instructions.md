@@ -75,7 +75,7 @@ dfu-util: Error during download get_status
 Failed to flash to 0483:df11: Error running dfu-util
 ```
 Ignore it, it's fine. As long as you have the `File downloaded successfully` line, then everything worked.
-_As far as I understand, the board performs the firmware update immediately and then doesn't respond to `dfu_util` when it tries to get its status, presumably to check if the flashing was successful. But in this case, no news is good news and the flashing was successful.`
+_As far as I understand, the board performs the firmware update immediately and then doesn't respond to `dfu_util` when it tries to get its status, presumably to check if the flashing was successful. But in this case, no news is good news and the flashing was successful._
 
 ### 4. Power cycle the machine
 ```bash

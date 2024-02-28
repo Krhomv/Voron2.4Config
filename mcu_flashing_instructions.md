@@ -2,8 +2,8 @@
 # How to flash the Octopus Pro and EBB 2209 (RP2040) using Katapult
 _Explanations are in italics. Feel free to ignore them if you just want to flash. Credit to @bkpkt_patrick on the Siboor Discord for showing me the config file method._
 
-### 0. Connect to your Raspberry Pi/BTT Pi board through SSH using your prefered method (I recommend MobaXTerm).
-All commands will be run on the board.
+### 0. Connect to your Raspberry Pi/BTT Pi through SSH using your prefered method (I recommend MobaXTerm).
+All commands will be run on the Pi.
 
 ### 1. Transfer the configuration files to your klipper folder
 _Those config files contain the setup information for the Octopus Pro and EBB 2209 (RP2040) specifically. This will save you from having to mess with `make menuconfig` and will reduce the chances to mess it up._

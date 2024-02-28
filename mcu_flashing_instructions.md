@@ -28,7 +28,7 @@ git clone https://github.com/Arksine/katapult
 Open notepad or your prefered text editor.
 Open your printer.cfg and look for something like `canbus_uuid: d9093b323a18`. There should be two of them.
 Write down the one that's under the `[mcu]` tag, this is your Octopus CAN id.
-Write donw the one that's under the `[mcu EBBCan]` tag (or similar), this is your Toolhead board, the EBB 2209 (RP2040).
+Write down the one that's under the `[mcu EBBCan]` tag (or similar), this is your Toolhead board, the EBB 2209 (RP2040).
 Your notepad document should look like this:
 ```
 Octopus Pro CAN Id: d9093b323a18
